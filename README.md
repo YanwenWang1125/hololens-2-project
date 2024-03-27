@@ -11,6 +11,8 @@ This project aims to improve surgeon and patient communication by using augmente
 
 Microsoft HoloLens 2 is utilized along with supporting software systems such as Unity, MRTK, Azure Spatial Anchors (ASA), and Photon Networking (PUN). The intention is that raw medical scans (MRI, CT) should first be pre-processed by other external teams with 3DSlicer (automated segmentation), which will produce a 3D .obj model of the medical image, to then be imported into the software.
 
+With the inclusion of the STL importer, it should be possible for STL files to be transferred from a PC to the Hololens via USB. As long as the user is signed into the Hololens, the STL files can be transferred to the 3D objects folder on the Hololens. 
+
 **Azure Spatial Anchors (ASA)** are used for establishing a common coordinate system between multiple devices in the same environment. 
 
 **Photon Unity Networking (PUN)** is used to synchronize interactions with 3D models between devices, as well as any required data sharing.
